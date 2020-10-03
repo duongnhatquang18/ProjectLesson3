@@ -1,0 +1,12 @@
+/* GLOBAL */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}

@@ -13,12 +13,18 @@ html, body{
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    position: relative;
+    padding-top: 92px;
+}
+
 /* HEADER */
 header{
     background: rgba(25, 25, 25, 0.8);
     position: fixed;
-    right: 0;
+    top: 0;
     left: 0;
+    width: 100%;
 }
 
 .header__content{
@@ -75,6 +81,49 @@ header{
 .header__content li:hover .header__link{
     border-bottom: none;  
     color: #00cdce; 
+}
+
+/* ABOUT */
+.about{
+    text-align: center;
+}
+
+.about h3{
+    font-size: 56px;
+    padding: 50px;
+}
+
+.about__content{
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px 30px;
+    font-size: 15px;
+}
+
+.about__content i {
+    font-size: 32px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    line-height: 100px;
+}
+
+.about__us{
+    grid-column: 1 / span 3;
+}
+
+.about__us h4{
+    font-size: 30px;
+    color: #00cdce;
+}
+
+.about__us p {
+    padding-top: 15px;
 }
 
 

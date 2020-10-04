@@ -86,22 +86,24 @@ header{
 /* ABOUT */
 .about{
     text-align: center;
+    padding: 50px
 }
 
 .about h3{
     font-size: 56px;
-    padding: 50px;
 }
 
 .about__content{
     width: 80%;
     margin: 0 auto;
+    padding-top: ;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
     gap: 30px 30px;
     font-size: 15px;
+    padding-top: 30px;
 }
 
 .about__content i {
@@ -124,6 +126,39 @@ header{
 
 .about__us p {
     padding-top: 15px;
+}
+
+/* STATUS */
+.status{
+    text-align: center;
+    background: #00cdce;
+}
+
+.status h3{
+    font-size: 56px;
+    padding-top: 70px;
+}
+
+.status__content{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    padding: 70px 0px;
+}
+
+.status__item {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.status__item p:first-child{
+    font-size: 56px;
+    color: white;
+}
+
+.status__item p:last-child{
+    font-size: 30px;
 }
 
 

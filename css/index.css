@@ -161,6 +161,29 @@ header{
     font-size: 30px;
 }
 
+/* BLOG */
+.blog{
+    padding-top: 70px;
+}
+
+.blog h3{
+    text-align: center;
+    font-size: 56px;
+}
+
+.blog__content{
+    width: 70%;
+    margin: 0 auto;
+
+    padding: 70px 0px;
+    display: flex;
+}
+
+.blog__more{
+    height: 383px;
+    width: 100%;
+    background: #00cdce;
+}
 
 
 
